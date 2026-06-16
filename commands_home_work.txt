@@ -1,0 +1,51 @@
+$ echo "# pixel-quest" >> README.md
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/yossi-lerer/pixel-quest.git
+$ git push -u origin main
+$ vim game.txt
+$ git add game.txt 
+$ git commit -m "create the game file and data"
+$ git push
+$ git log
+$ git status
+$ git clone https://github.com/yossi-lerer/pixel-quest.git
+$ ls
+$ cd pixel-quest/
+$ ls
+$ cat game.txt
+$ code .
+$ git switch -c feature/player-menu
+$ git branch 
+$ echo "Player menu started" >> player-menu.txt
+$ ls
+$ git add player-menu.txt 
+$ git commit -m "add the player menu"
+$ git push
+$ git push --set-upstream origin feature/player-menu
+$ git pull
+$ git switch main 
+$ git pull
+$ git switch feature/player-menu 
+$ git branch 
+$ vim player-menu.txt 
+$ git add player-menu.txt 
+$ git commit -m "change the player--menu"
+$ git status
+$ git log
+$ git push
+$ git switch main 
+$ git pull
+$ vim settings.txt
+$ git add settings.txt 
+$ git status 
+$ git commit -m "create the settings file"
+$ git pull
+$ vim settings.txt 
+$ git add settings.txt 
+$ git status 
+$ git commit -m "fix the conflict"
+$ git log
+$ git push
